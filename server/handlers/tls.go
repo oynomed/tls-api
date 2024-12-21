@@ -424,7 +424,6 @@ func (t *tlsData) extractPseudoHeaderOrder(ctx fiber.Ctx) error {
 
 func setRequestHeaders(tlsData *tlsData, req *http.Request) {
 	for headerKey, headerValues := range tlsData.requestHeaders {
-		fmt.Println(headerKey)
 		headerKeyLower := strings.ToLower(headerKey)
 
 		isContentType := headerKeyLower == "content-type" && slices.Contains(methodsWithoutRequestBody, tlsData.requestMethod)
