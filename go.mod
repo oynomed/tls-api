@@ -6,7 +6,7 @@ require (
 	github.com/andybalholm/brotli v1.1.1
 	github.com/bogdanfinn/fhttp v0.5.31
 	github.com/bogdanfinn/tls-client v1.7.10
-	github.com/gofiber/fiber/v3 v3.0.0-beta.3
+	github.com/gofiber/fiber/v2 v2.52.5
 	github.com/joho/godotenv v1.6.0-pre.2
 	golang.org/x/sys v0.28.0
 )
