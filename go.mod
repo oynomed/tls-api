@@ -1,4 +1,4 @@
-module github.com/brianxor/tls-api
+module github.com/oynomed/tls-api
 
 go 1.23.0
 
